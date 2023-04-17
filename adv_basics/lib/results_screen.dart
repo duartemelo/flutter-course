@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:adv_basics/data/questions.dart';
-import 'package:adv_basics/questions_summary.dart';
+import 'package:adv_basics/questions_summary/questions_summary.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class ResultsScreen extends StatelessWidget {
@@ -60,7 +60,7 @@ class ResultsScreen extends StatelessWidget {
             TextButton.icon(
               onPressed: restartQuiz,
               style: TextButton.styleFrom(foregroundColor: Colors.white),
-              icon: const Icon(Icons.restart_alt),
+              icon: const Icon(Icons.refresh),
               label: Text(
                 'Restart Quiz!',
                 style: GoogleFonts.lato(fontWeight: FontWeight.bold),
